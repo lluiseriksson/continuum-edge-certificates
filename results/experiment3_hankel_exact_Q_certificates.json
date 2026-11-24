@@ -1,0 +1,120 @@
+{
+  "order_sweep_point1d": [
+    {
+      "order_n": 0,
+      "tau_max": 1.5,
+      "Delta_ub_exact_Q": 1.891079889788,
+      "err_Hankel_Q": 0.8910798897879999,
+      "raw_g_at_tau_max": 1.7550274754588266,
+      "err_raw_at_tau_max": 0.7550274754588266,
+      "tightness_vs_raw_at_tau_max": 0.8473173776129748
+    },
+    {
+      "order_n": 1,
+      "tau_max": 2.5,
+      "Delta_ub_exact_Q": 1.412032797728,
+      "err_Hankel_Q": 0.41203279772800006,
+      "raw_g_at_tau_max": 1.4858022661763652,
+      "err_raw_at_tau_max": 0.48580226617636524,
+      "tightness_vs_raw_at_tau_max": 1.1790378553725314
+    },
+    {
+      "order_n": 2,
+      "tau_max": 3.5,
+      "Delta_ub_exact_Q": 1.242521155644,
+      "err_Hankel_Q": 0.2425211556439999,
+      "raw_g_at_tau_max": 1.3612385927815738,
+      "err_raw_at_tau_max": 0.3612385927815738,
+      "tightness_vs_raw_at_tau_max": 1.4895137367390778
+    },
+    {
+      "order_n": 3,
+      "tau_max": 4.5,
+      "Delta_ub_exact_Q": 1.160823535266,
+      "err_Hankel_Q": 0.1608235352659999,
+      "raw_g_at_tau_max": 1.2885569503194978,
+      "err_raw_at_tau_max": 0.2885569503194978,
+      "tightness_vs_raw_at_tau_max": 1.7942457852467215
+    },
+    {
+      "order_n": 4,
+      "tau_max": 5.5,
+      "Delta_ub_exact_Q": 1.114806239884,
+      "err_Hankel_Q": 0.11480623988399996,
+      "raw_g_at_tau_max": 1.24065982149675,
+      "err_raw_at_tau_max": 0.24065982149674991,
+      "tightness_vs_raw_at_tau_max": 2.0962259694238936
+    },
+    {
+      "order_n": 5,
+      "tau_max": 6.5,
+      "Delta_ub_exact_Q": 1.087889149714,
+      "err_Hankel_Q": 0.08788914971399997,
+      "raw_g_at_tau_max": 1.2066114851111036,
+      "err_raw_at_tau_max": 0.2066114851111036,
+      "tightness_vs_raw_at_tau_max": 2.3508190235477064
+    }
+  ],
+  "model_certificates": [
+    {
+      "file": "point1d_odd_n5_exact.cert.json",
+      "model": "1D Point-Interaction (alpha=1/2, Delta=1.0)",
+      "order_n": 5,
+      "Delta_true": 1.0,
+      "Delta_ub_exact_Q": 1.023855007894,
+      "excess_ub": 0.02385500789400008
+    },
+    {
+      "file": "point3d_n5_exact.cert.json",
+      "model": "3D Point-Interaction (alpha=3/2, Delta=1.0)",
+      "order_n": 5,
+      "Delta_true": 1.0,
+      "Delta_ub_exact_Q": 1.080565677136,
+      "excess_ub": 0.08056567713599994
+    },
+    {
+      "file": "tb1d_vanhove_n5_exact.cert.json",
+      "model": "1D Tight-Binding van Hove (alpha=1/2, Delta=0.5)",
+      "order_n": 5,
+      "Delta_true": 0.5,
+      "Delta_ub_exact_Q": 0.525522885866,
+      "excess_ub": 0.025522885866000045
+    },
+    {
+      "file": "step2d_n5_exact.cert.json",
+      "model": "2D Step Continuum (alpha=1.0, Delta=0.5)",
+      "order_n": 5,
+      "Delta_true": 0.5,
+      "Delta_ub_exact_Q": 0.550203933692,
+      "excess_ub": 0.05020393369200005
+    },
+    {
+      "file": "lattice_impurity_L401_n4_exact.cert.json",
+      "model": "1D Lattice Impurity ED (L=401, Delta=0.5)",
+      "order_n": 4,
+      "Delta_true": 0.5,
+      "Delta_ub_exact_Q": 0.615571275492,
+      "excess_ub": 0.11557127549199997
+    }
+  ],
+  "noisy_interval_audit": [
+    {
+      "sigma_rel": 0.001,
+      "order_n": 2,
+      "n_trials": 200,
+      "certified_fraction": 0.69,
+      "soundness_fraction": 1.0,
+      "median_Delta_ub": 1.668767299804,
+      "Delta_true": 1.0
+    },
+    {
+      "sigma_rel": 0.01,
+      "order_n": 1,
+      "n_trials": 200,
+      "certified_fraction": 0.975,
+      "soundness_fraction": 1.0,
+      "median_Delta_ub": 2.57255597839,
+      "Delta_true": 1.0
+    }
+  ]
+}

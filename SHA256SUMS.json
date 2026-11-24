@@ -1,0 +1,124 @@
+{
+  "files": {
+    "LICENSE": {
+      "bytes": 1122,
+      "sha256": "c7423e109272add5957d059c3e95d81293f44598cbef6044ef89a0ec674509c1"
+    },
+    "README.md": {
+      "bytes": 4079,
+      "sha256": "08a6eea481e696d0ffa0f88da75bf8a55aee61aa78f29132e0b8551962f67972"
+    },
+    "lean/AuditAxioms.lean": {
+      "bytes": 861,
+      "sha256": "f1cce18180bb60bf9604d822a624f2adef61418c6e3e8de5365ad2248f9d9c16"
+    },
+    "lean/ContinuumEdge.lean": {
+      "bytes": 53594,
+      "sha256": "a7f0aff664e24829a2a8d2107fe163de3af82b77515b8265659f18f8b665a4ae"
+    },
+    "lean/lakefile.toml": {
+      "bytes": 114,
+      "sha256": "32c0e0c8c077f76ee015d612eb7ec693681903c7810e3475c53e868b525557e5"
+    },
+    "lean/lean-toolchain": {
+      "bytes": 25,
+      "sha256": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c"
+    },
+    "paper/figures/fig1_shift_invariant_laws.pdf": {
+      "bytes": 41576,
+      "sha256": "8c369c187a01f9bd9056dc87c8fcbd297af7bbcf01b63b1a6a8f61b981b5e3b1"
+    },
+    "paper/figures/fig2_lattice_ed_and_trichotomy.pdf": {
+      "bytes": 39727,
+      "sha256": "00e1d1f4e72e2de876147c53c46f0532f676b9e8f36e62314fa713e28f117855"
+    },
+    "paper/figures/fig3_hankel_and_minimax.pdf": {
+      "bytes": 46012,
+      "sha256": "6316d9bf1f59098c0cbe5bdc52cf08167502b5815b149c850c5834434cd81031"
+    },
+    "paper/main.pdf": {
+      "bytes": 802192,
+      "sha256": "0aa35ddf341e0a8d2061f39a5acdec39df61a2e6d0986642f68a5ed593e7dbb2"
+    },
+    "paper/main.tex": {
+      "bytes": 55047,
+      "sha256": "bf96f7f754b55af255ce969c3fda43faac190610269c241cf5c9411791f3a5e1"
+    },
+    "paper/references.bib": {
+      "bytes": 3488,
+      "sha256": "e19891025dff5a574dddd59b0959c0c6c426b50d83691431818820a74c79a368"
+    },
+    "results/experiment1_point_interaction_and_laws.json": {
+      "bytes": 23173,
+      "sha256": "6c1700cdae052d6c2c6e2d15cdd331e51f5d30dd2fdf389c1125cf90d83542ff"
+    },
+    "results/experiment2_lattice_ed_and_trichotomy.json": {
+      "bytes": 4701,
+      "sha256": "4ce98a211a89fb355425c31219bcc2dc5392c0754926eec91449e5c109746df9"
+    },
+    "results/experiment3_hankel_exact_Q_certificates.json": {
+      "bytes": 3626,
+      "sha256": "79605966adca6c65a8e37de4eed65a097185d2e0efe984821d2bcdd8af9ebc88"
+    },
+    "results/experiment4_shot_noise_minimax.json": {
+      "bytes": 2686,
+      "sha256": "8506c21affa183db4a4f872012e41cba57e3b77b1ac0c69466b97bcad1f4dc22"
+    },
+    "results/rational_certificates/lattice_impurity_L401_n4_exact.cert.json": {
+      "bytes": 1308,
+      "sha256": "94b103be28ea8d0f50c189a4754034863c1c842d4f12c2fefd8e61a6ade549ba"
+    },
+    "results/rational_certificates/point1d_even_n5_exact.cert.json": {
+      "bytes": 1452,
+      "sha256": "3f8329ffa80804536cf5218e6722ca123025a298cce9faf967181ac664d24d56"
+    },
+    "results/rational_certificates/point1d_odd_n5_exact.cert.json": {
+      "bytes": 1472,
+      "sha256": "a7c17c80ae41fd1e459da1b05db603e3cbf4c175501a922d9cc291f96a2a4a06"
+    },
+    "results/rational_certificates/point3d_n5_exact.cert.json": {
+      "bytes": 1433,
+      "sha256": "4c0406c4cc97cf5d8b583b4f5661afa40e39de591361e23dc246e37a26357ae6"
+    },
+    "results/rational_certificates/step2d_n5_exact.cert.json": {
+      "bytes": 1484,
+      "sha256": "1112345b03f87ea81c5435f8b1bf9153c4c635df3c88c27bffc67c788d9eeaec"
+    },
+    "results/rational_certificates/tb1d_vanhove_n5_exact.cert.json": {
+      "bytes": 1483,
+      "sha256": "3cd5bba697afd919f20981c4f53d298258256a614cfd3738b093b9ef10124e75"
+    },
+    "scripts/make_figures.py": {
+      "bytes": 8980,
+      "sha256": "6831a945dee202de2ff54279e30431fc542303f241c581737eada499a6980ba6"
+    },
+    "scripts/run_all_experiments.py": {
+      "bytes": 19804,
+      "sha256": "b542fdf12de58cee23dfd2d3cbf922b7ea6357c3f23ff42ea80387bd94dcf6e1"
+    },
+    "scripts/verify_all.py": {
+      "bytes": 5503,
+      "sha256": "5e5d4e4d4b186f89429116c44578a6f51e9b7f62b1c4dbd6ee3da1b01d6a9d13"
+    },
+    "src/__init__.py": {
+      "bytes": 96,
+      "sha256": "b010e4dd8f4bd1d0634a0a188800148590a9e9bf5f28c26e6be635c76b2ecd49"
+    },
+    "src/continuum_estimators.py": {
+      "bytes": 4724,
+      "sha256": "b0172f65ac3128e1f00fecd56bec744350103734d59b3a97a266ce2215f3ad05"
+    },
+    "src/hankel_certifier.py": {
+      "bytes": 11478,
+      "sha256": "4cab55e8caa4baaa40039461d1770692284378c1868d5e521e4066331431e11b"
+    },
+    "src/physical_models.py": {
+      "bytes": 4387,
+      "sha256": "14f8540172bba9983fd4198542fe29c7cca4f52f49e0d15ece2ec3bca67fed24"
+    },
+    "tests/test_suite.py": {
+      "bytes": 7032,
+      "sha256": "f5fc2f63d5d645e32a554439fea7812c5dafbb827e53b367463f6002a15a3925"
+    }
+  }
+}

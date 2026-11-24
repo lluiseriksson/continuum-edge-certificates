@@ -1,0 +1,95 @@
+{
+  "Delta_true": 1.0,
+  "alpha_true": 1.5,
+  "n_mc": 120,
+  "minimax_sweep": [
+    {
+      "sigma": 0.001,
+      "log_inv_sigma": 6.907755278982137,
+      "rmse_raw": 0.6582274753947548,
+      "tau_opt_raw": 1.75,
+      "rmse_VF": 0.4461925922764425,
+      "tau_opt_VF": 1.5,
+      "rmse_SI": 0.8976045640173483,
+      "tau_opt_SI": 1.5,
+      "gain_SI_over_raw": 0.7333156512136819
+    },
+    {
+      "sigma": 0.0003,
+      "log_inv_sigma": 8.111728083308073,
+      "rmse_raw": 0.49078144726357936,
+      "tau_opt_raw": 2.5,
+      "rmse_VF": 0.1883970793470134,
+      "tau_opt_VF": 1.5,
+      "rmse_SI": 0.31838235359454,
+      "tau_opt_SI": 1.5,
+      "gain_SI_over_raw": 1.5414844501356681
+    },
+    {
+      "sigma": 0.0001,
+      "log_inv_sigma": 9.210340371976184,
+      "rmse_raw": 0.3710592618551708,
+      "tau_opt_raw": 3.5,
+      "rmse_VF": 0.11593189287946815,
+      "tau_opt_VF": 1.75,
+      "rmse_SI": 0.18983923849491013,
+      "tau_opt_SI": 1.75,
+      "gain_SI_over_raw": 1.9545972939894585
+    },
+    {
+      "sigma": 3e-05,
+      "log_inv_sigma": 10.41431317630212,
+      "rmse_raw": 0.31127877773977447,
+      "tau_opt_raw": 4.25,
+      "rmse_VF": 0.08903992281393874,
+      "tau_opt_VF": 2.0,
+      "rmse_SI": 0.13141702839169456,
+      "tau_opt_SI": 2.25,
+      "gain_SI_over_raw": 2.368633513854792
+    },
+    {
+      "sigma": 1e-05,
+      "log_inv_sigma": 11.512925464970229,
+      "rmse_raw": 0.2563350054962463,
+      "tau_opt_raw": 5.25,
+      "rmse_VF": 0.06682943994054555,
+      "tau_opt_VF": 2.5,
+      "rmse_SI": 0.08373199594712123,
+      "tau_opt_SI": 2.5,
+      "gain_SI_over_raw": 3.061374598763035
+    },
+    {
+      "sigma": 3e-06,
+      "log_inv_sigma": 12.716898269296165,
+      "rmse_raw": 0.23015892584351544,
+      "tau_opt_raw": 6.25,
+      "rmse_VF": 0.051600634007263675,
+      "tau_opt_VF": 3.0,
+      "rmse_SI": 0.06157392652483779,
+      "tau_opt_SI": 2.75,
+      "gain_SI_over_raw": 3.7379283543120083
+    },
+    {
+      "sigma": 1e-06,
+      "log_inv_sigma": 13.815510557964274,
+      "rmse_raw": 0.18721190397629447,
+      "tau_opt_raw": 7.0,
+      "rmse_VF": 0.04254863583172494,
+      "tau_opt_VF": 3.5,
+      "rmse_SI": 0.04483739816368531,
+      "tau_opt_SI": 3.25,
+      "gain_SI_over_raw": 4.175351640450919
+    },
+    {
+      "sigma": 1e-07,
+      "log_inv_sigma": 16.11809565095832,
+      "rmse_raw": 0.16622529211642617,
+      "tau_opt_raw": 8.25,
+      "rmse_VF": 0.02735189413560924,
+      "tau_opt_VF": 5.0,
+      "rmse_SI": 0.02467990141340762,
+      "tau_opt_SI": 4.25,
+      "gain_SI_over_raw": 6.735249437670869
+    }
+  ]
+}
